@@ -7,11 +7,12 @@ export default function Document() {
     <Html>
       <Head>
         {CssBaseline.flush()}
-        <Script>
+        <Script id="prefinery">
           {`prefinery=window.prefinery||function()
           {(window.prefinery.q = window.prefinery.q || []).push(arguments)};`}
         </Script>
         <Script
+          id="prefinery-2"
           src="https://widget.prefinery.com/widget/v2/yqa3uvzy.js"
           defer
         ></Script>
