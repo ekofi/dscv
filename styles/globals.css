@@ -21,6 +21,14 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background-color: #2be34f;
   }
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mt-2 {
+  margin-top: 20px;
 }
